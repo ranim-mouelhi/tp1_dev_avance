@@ -42,3 +42,38 @@ J’ai eu des difficultés aussi avec le hachage vu que je ne savais pas comment
 **Compétences acquises :**
 
 Ayant déjà utilisé Node js dans mon stage de l’année dernière et la sae de cette année je connais déjà plusieurs notions telles que les promesses mais j’ai pu en découvrir d’autre il s’agit du module crypto de node que je connaissais pas auparavant. 
+
+**Voici un exemple de requetes http que j'ai effectué : **
+
+GET http://localhost:3000/findBlock/4eab05e6-bf7a-403d-93ea-5bf5315ade9d
+Accept: application/json
+
+###
+GET http://localhost:3000/verify
+Accept: application/json
+
+<> 2024-01-28T202307.200.json
+<> 2024-01-28T202227.200.json
+<> 2024-01-28T202151.200.json
+<> 2024-01-28T202102.200.json
+
+###
+POST http://localhost:3000/blockchain
+Content-Type: application/json
+
+{
+  "nom": "Exemple 2 verif",
+  "don": 3678
+}
+
+
+###
+GET http://localhost:3000/blockchain
+Accept: application/json
+
+<> 2024-01-28T203801.200.json
+<> 2024-01-28T203228.200.json
+<> 2024-01-28T203121.200.json
+<> 2024-01-28T192509.200.json
+
+###
