@@ -1,4 +1,4 @@
-**Notes TP 1**
+**Compte rendu TP 1**
 
 **Étape 1 :**
 
@@ -37,6 +37,8 @@ J’ai ajouté aussi deux cases dans le fichier server.js sous forme de requête
 concernant l’étape d’aller plus loin j’ai créé la fonction verifyblocks mais je n’ai pas compris pourquoi à chaque fois, j’ai un false qui s’affiche comme résultat dans tous les cas.
 
 J’ai eu des difficultés aussi avec le hachage vu que je ne savais pas comment marchait le module crypto de node, mais avec la documentation j’ai pu comprendre et créer la fonction “generateSHA256”.
+
+J'ai rencontré d'autres défis aussi , notamment l'adaptation et l'utilisation de PHPStorm. Cet IDE est nouveau pour moi, et cela m'a demandé un certain temps pour m'habituer et comprendre son fonctionnement.
 
 
 **Compétences acquises :**
